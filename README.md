@@ -12,5 +12,5 @@
 |----------|:--------:|---------:|---------:|---------:|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [python](https://github.com/abhilekha-dalal/leetcode/blob/main/python/Valid%20Parentheses.py) | easy | stack.append(opening bracket) <br> if closing == stack[-1] then pop, len(stack) ==0
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/description/) | [python](https://github.com/abhilekha-dalal/leetcode/blob/main/python/Min%20Stack.py) | medium | keep stack and minStack <br> min = min(minstack[-1], val
-
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | [python](https://github.com/abhilekha-dalal/leetcode/blob/main/python/Evaluate%20Reverse%20Polish%20Notation.py) | medium | append int to stack, pop on operation sign <br> append res to stack
 
